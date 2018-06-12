@@ -28,7 +28,7 @@ func (l *Limiter) initSetup() {
 	l.limitChan = time.Tick(time.Duration(l.Limit) * time.Millisecond)
 }
 
-// fillInBurst fills the the burst channel
+// fillInBurst fills the burst channel
 func (l *Limiter) fillInBurst() {
 	//fmt.Printf("\nbefore: length of BurstChan = %d ... %s\n", len(l.BurstChan), time.Now())
 	for i := 0; i < l.Burst; i++ {
