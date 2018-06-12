@@ -11,10 +11,11 @@ to provide repeated bursts.
 
 ## Input
 The CLI accepts the following flags:
-  -requests ...... number of requests
-  -limit ......... number of miliseconds to limit the requests
-  -burst ......... number of requests allowed not to be limited
-  -burstrepeat ... how often to repeat the burst (in seconds)
+
+  - requests ...... number of requests
+  - limit ......... number of miliseconds to limit the requests
+  - burst ......... number of requests allowed not to be limited
+  - burstrepeat ... how often to repeat the burst (in seconds)
 
 ## Usage
 
